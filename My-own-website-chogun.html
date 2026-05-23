@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Its my website</title>
+    </head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: grey;
+            color: black;
+        }
+    </style>
+    <body>
+        <input type="checkbox" id="happy">
+        <label for="happy" id="mylabel">Thank you for joining this website!</label>
+    </body>
+    <script>
+        function thank() {
+            document.getElementById("mylabel").innerText = "Thank you!"
+        }
+    </script>
+</html>
